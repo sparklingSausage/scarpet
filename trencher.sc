@@ -46,6 +46,14 @@ kill(NAME, COUNT) -> (
   return;
 );
 
+dropall(NAME, COUNT) -> (
+  c_for(i=0, i<sum(COUNT+1), i+=1,
+  run('player ' + NAME + i + ' dropStack all');
+  run('player ' + NAME + i + ' kill');
+  );
+  return;
+);
+
 jump(NAME, COUNT) -> (
   c_for(i=0, i<sum(COUNT+1), i+=1,
   run('player ' + NAME + i + ' jump');
