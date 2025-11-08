@@ -1,5 +1,5 @@
 # scarpet
-This repo currently includes only one carpet script, it won't be the only one for long tho.
+Scripts using the [scarpet language](https://github.com/gnembon/scarpet) for [Minecraft](https://minecraft.net).
 
 ---
 
