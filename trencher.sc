@@ -101,7 +101,8 @@ info() -> (
   print(format('e attack(\'something\', 8)'));
   print('');
   print(format('c \'spaw\' is intended. the function \'spawn\' is reserved so it cannot be used'));
-  print(format('q directions can be either \'north\', \'south\', \'east\', \'west\' or \'n\', \'e\', \'w\', \'s\' etc.'));
+  print(format('q directions can be either \'north\', \'south\', \'east\', \'west\' or \'n\', \'e\', \'w\', \'s\''));
   print(format('rb All string values must be inside quotes \'EXAMPLE\''));
   return;
 );
+
